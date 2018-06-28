@@ -4,7 +4,7 @@ attr_reader :name
 
 def initialize(name)
 @name = name
-@@all << name
+@@all << self.name
 end
 
 
