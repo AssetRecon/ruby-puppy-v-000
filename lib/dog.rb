@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 
-def all
+def self.all
   @@all.each do |i|
     puts i
   end
