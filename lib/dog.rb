@@ -10,7 +10,7 @@ end
 
 def self.all
   @@all.each do |i|
-    puts i
+    puts i.name
   end
 end
 
